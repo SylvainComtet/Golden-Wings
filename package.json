@@ -24,6 +24,7 @@
   , "main": "./lib/aviator"
   , "scripts": {
         "start": "node ./bin/aviator"
+      , "test": "mocha -R spec"  
     }
   , "repository": {
         "type": "git"
@@ -35,7 +36,7 @@
     , "jade": ">= 0.0.1"
     }
   , "devDependencies": {
-    
+      "mocha": ">=0.12.X"
     }
   , "license": "CC BY-NC-SA 3.0"
 }

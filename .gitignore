@@ -1,6 +1,7 @@
 #Misc
 .DS_Store
 node_modules
+npm-debug.log
 
 #Generated files
 lib/public/stylesheets/*css
