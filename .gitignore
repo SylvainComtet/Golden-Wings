@@ -1,0 +1,6 @@
+#Misc
+.DS_Store
+node_modules
+
+#Generated files
+lib/public/stylesheets/*css

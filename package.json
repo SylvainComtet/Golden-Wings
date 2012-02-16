@@ -1,0 +1,41 @@
+{
+    "name": "Aviator"
+  , "version": "0.0.1"
+  , "author": "Vincent PEYROUSE, Matthis FRENAY and Sylvain COMTET"
+  , "description": "Flying enthusiasts club management system written in Node.JS (SUPINFO school project)"
+  , "contributors": [
+      {
+          "name": "Vincent PEYROUSE"
+        , "email": "Vincent.PEYROUSE@SUPINFO.com"
+      }
+    , {
+          "name": "Matthis FRENAY"
+        , "email": "Matthis.FRENAY@SUPINFO.com" 
+      }
+    , {
+          "name": "Sylvain COMTET"
+        , "email": "Sylvain.COMTET@SUPINFO.com" 
+      }
+    ]
+  , "private": true
+  , "bin": {
+      "aviator": "./bin/aviator"
+    }
+  , "main": "./lib/aviator"
+  , "scripts": {
+        "start": "node ./bin/aviator"
+    }
+  , "repository": {
+        "type": "git"
+      , "url": "https://github.com/GodezInc/Golden-Wings.git"
+    }
+  , "dependencies": {
+      "express": "2.5.8"
+    , "stylus": ">= 0.0.1"
+    , "jade": ">= 0.0.1"
+    }
+  , "devDependencies": {
+    
+    }
+  , "license": "CC BY-NC-SA 3.0"
+}
