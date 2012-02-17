@@ -4,4 +4,4 @@ node_modules
 npm-debug.log
 
 #Generated files
-lib/public/stylesheets/*css
+lib/public/stylesheets/*.css
